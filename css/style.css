@@ -45,18 +45,24 @@ ul {
   padding: 1rem;
 }
 
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
 .experience {
   padding: 5px;
   margin: 5px;
   border: 3px dashed #a38e74;
 }
 
-li {
+.education {
   padding: 5px;
   margin: 5px;
+  border: 3px dashed #a38e74;
 }
 
-.education {
+.goals {
   padding: 5px;
   margin: 5px;
   border: 3px dashed #a38e74;

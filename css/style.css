@@ -1,10 +1,88 @@
+body {
+  background-image: url("../img/background.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 4rem;
-  color: blue;
+  color: #a38e74;
+  text-shadow: 3px 3px 3px #8499A3;
+  background-color: #dbe9f0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #a38e74;
+  text-shadow: 2px 2px 2px #8499A3;
+}
+
+#hero {
+  width: 960px;
+  border: 3px solid #a38e74;
+}
+
+main {
+  padding: 5px;
+  margin: 5px;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 ul {
   list-style: disc;
   margin: 1rem;
   padding: 1rem;
+}
+
+.experience {
+  padding: 5px;
+  margin: 5px;
+  border: 3px dashed #a38e74;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.education {
+  padding: 5px;
+  margin: 5px;
+  border: 3px dashed #a38e74;
+}
+
+footer {
+  height: fit-content;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+#github {
+  background-color: none;
+}
+
+#github:hover {
+  background-color: #8499A3;
+}
+
+#linkedin {
+  background-color: none;
+}
+
+#linkedin:hover {
+  background-color: #8499A3;
 }

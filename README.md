@@ -4,7 +4,7 @@
 
 This is a website I built to showcase a little bit about myself. Using JS you are able to take a short 5 question quiz about me. After you take the quiz, you may enter the webpage and read a little about myself and follow the links included to my github and Linkedin.
 
-### Author: Luis Sandoval
+### Author: Luis Sandoval/ Derek Douglass/ Zayah Lang/ Alan Monkman/ Ken Lindsey
 
 ### Links and Resources
 

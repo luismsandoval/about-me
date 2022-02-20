@@ -45,6 +45,12 @@ ul {
   padding: 1rem;
 }
 
+ol {
+  list-style: decimal;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -63,6 +69,12 @@ li {
 }
 
 .goals {
+  padding: 5px;
+  margin: 5px;
+  border: 3px dashed #a38e74;
+}
+
+.top10 {
   padding: 5px;
   margin: 5px;
   border: 3px dashed #a38e74;

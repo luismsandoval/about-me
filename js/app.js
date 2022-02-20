@@ -2,16 +2,16 @@
 
 console.log('HelloWorld');
 
-/*
-&& - is the logical and
-one of false with an and and it will not run
+// /*
+// && - is the logical and
+// one of false with an and and it will not run
 
-|| - is the logical or
-one true and it will run
+// || - is the logical or
+// one true and it will run
 
-! - is the logical not
-it reverses the value
-*/
+// ! - is the logical not
+// it reverses the value
+// */
 
 let username = prompt('What is your name?');
 alert('Hi ' + username + '! ' + 'Welcome to my site!');
@@ -68,4 +68,47 @@ if (home === 'yes' || home === 'y') {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
 }
 
-alert('You did pretty good ' + username + '! ' + 'Maybe you are a good friend!');
+let attempts = 3;
+
+for (let i = 0; i < 4; i++) {
+  let number = parseInt(prompt('guess a number from 1-10'));
+  if (number === 7) {
+    /*console.log*/alert('That is right!');
+    break;
+  } if (number < 7) {
+    /*console.log*/alert(`too low, try again! You have ${attempts--} attempts remaining`);
+  } if (number > 7) {
+    /*console.log*/alert(`too high, try again! You have ${attempts--} attempts remaining`);
+  }
+} /*console.log*/alert('the number was 7');
+
+// let favorite = ['pizza', 'taco', 'cheeseBurger', 'lasagna', 'BaconEgg&Cheese', 'six', 'seven', 'eight', 'nine', 'ten',];
+
+
+// let moreattempts = 6;
+
+// for (let i = 0; i < favorite; i++) {
+//   let favorite = prompt('guess my top 10 fav foods');
+//   if (favorite[i] === 'pizza') {
+//     console.log('thats right');
+//   } else {
+//     console.log(' nope');
+//   }
+// }
+// let favorite = ['pizza', 'taco', 'cheeseburger', 'lasagna', 'baconeggncheese', 'burrito', 'chickenarm', 'padthai', 'friedchicken', 'pho'];
+
+// let moreAttempts = 6;
+
+// for (let i = 0; i < 6; i++) {
+//   for (let j = 0; j < favorite.length; j++) {
+//     let userResponse = prompt('guess my favorite food!');
+//     if (userResponse === favorite[j]) {
+//       console.log('That is correct');
+//     }
+//   }
+//   do{
+//     moreAttempts--;
+//   } while (moreAttempts > 0);
+//   console.log(`you have ${moreAttempts - i - 1}`);
+// }
+//alert('You did pretty good ' + username + '! ' + 'Maybe you are a good friend!');]

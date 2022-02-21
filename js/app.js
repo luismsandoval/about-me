@@ -110,10 +110,50 @@ console.log(favorite.length);
 
 let moreAttempts = 6;
 
-for (let i = 0; i < 6; i++) {
+for (let j = 0; j < 6; j++) {
   //for (let j = 0; j < favorite.length; j++) {
-  let userResponse = prompt(`guess one of my top 10 favorite foods! You have ${moreAttempts - i} attempts!`);
-  if (favorite.includes(userResponse)) {
+  let userResponse = prompt(`guess one of my top 10 favorite foods! You have ${moreAttempts - j} attempts!`).toLowerCase();
+  if (/*favorite.includes(userResponse)*/userResponse === favorite[0]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[1]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[2]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[3]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[4]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[5]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[6]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[7]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[8]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[9]) {
+    console.log('That is correct');
+    score++;
+    break;
+  } if (/*favorite.includes(userResponse)*/userResponse === favorite[10]) {
     console.log('That is correct');
     score++;
     break;
@@ -121,7 +161,7 @@ for (let i = 0; i < 6; i++) {
     console.log('That is incorrect');
   }
   //}
-  console.log(`you have ${moreAttempts - i - 1} attempts remaining`);
+  console.log(`you have ${moreAttempts - j - 1} attempts remaining`);
 }
 
 alert('You did pretty good ' + username + '! ' + 'Maybe you are a good friend!');

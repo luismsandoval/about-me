@@ -69,16 +69,22 @@ function questionThree(){
 
 questionThree();
 
-let pet = prompt('Do I have dogs?').toLowerCase();
+function questionFour(){
 
-if (pet === 'yes' || pet === 'y') {
+  let pet = prompt('Do I have dogs?').toLowerCase();
+
+  if (pet === 'yes' || pet === 'y') {
   /*console.log*/alert('Correct! I have two girls, Nala and Betty.');
-  score++;
-} else if (pet === 'no' || pet === 'n') {
+    score++;
+  } else if (pet === 'no' || pet === 'n') {
   /*console.log*/alert('Wrong again. Dude you should know I\'m a dog person.');
-} else {
+  } else {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
+  }
 }
+
+questionFour();
+
 
 let home = prompt('Am I from San Diego, CA?').toLowerCase();
 

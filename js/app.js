@@ -85,6 +85,8 @@ function questionFour(){
 
 questionFour();
 
+function questionFive(){
+
 
 let home = prompt('Am I from San Diego, CA?').toLowerCase();
 
@@ -96,6 +98,8 @@ if (home === 'yes' || home === 'y') {
 } else {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
 }
+}
+questionFive();
 
 let attempts = 3;
 

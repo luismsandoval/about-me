@@ -17,3 +17,5 @@ This is a website I built to showcase a little bit about myself. Using JS you ar
 - Overall I had a good experience building this site, but I did have some issues where another set of eyes could have helped. Having your peers review your code is important!
 
 - In order to best find the answers to my questions, I realized that I have to be very specific in my question. This is especially important when asking google.
+
+- Jeramie G was the driver and I was the navigator. We warp the logic in a function and ACP each seperately.

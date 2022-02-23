@@ -20,16 +20,22 @@ alert('Take this quiz to see if you really know me! Please answer with \'yes\' o
 
 let score = 0;
 
-let game = prompt('Do I play video games?').toLowerCase();
+function questionOne(){
 
-if (game === 'yes' || game === 'y') {
+
+  let game = prompt('Do I play video games?').toLowerCase();
+
+  if (game === 'yes' || game === 'y') {
   /*console.log*/alert('That\'s right! I do enjoy some games.');
-  score++;
-} else if (game === 'no' || game === 'n') {
+    score++;
+  } else if (game === 'no' || game === 'n') {
   /*console.log*/alert('Wrong! A true friend would know that :(');
-} else {
+  } else {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
+  }
 }
+
+questionOne();
 
 let zodiac = prompt('Am I a Pisces?').toLowerCase();
 

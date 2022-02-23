@@ -37,16 +37,21 @@ function questionOne(){
 
 questionOne();
 
-let zodiac = prompt('Am I a Pisces?').toLowerCase();
+function questionTwo(){
 
-if (zodiac === 'yes' || zodiac === 'y') {
+
+  let zodiac = prompt('Am I a Pisces?').toLowerCase();
+
+  if (zodiac === 'yes' || zodiac === 'y') {
   /*console.log*/alert('You thought I was a Pisces??? I\'m an aquarius baby. You should know this!');
-} else if (zodiac === 'no' || zodiac === 'n') {
+  } else if (zodiac === 'no' || zodiac === 'n') {
   /*console.log*/alert('Correct! I\'m an Aquarius babyyy!');
-  score++;
-} else {
+    score++;
+  } else {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
+  }
 }
+questionTwo();
 
 let anime = prompt('Am I an anime fan?').toLowerCase();
 

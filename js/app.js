@@ -53,16 +53,21 @@ function questionTwo(){
 }
 questionTwo();
 
-let anime = prompt('Am I an anime fan?').toLowerCase();
+function questionThree(){
 
-if (anime === 'yes' || anime === 'y') {
+  let anime = prompt('Am I an anime fan?').toLowerCase();
+
+  if (anime === 'yes' || anime === 'y') {
   /*console.log*/alert('Duh! uWu where\'s my waifu');
-  score++;
-} else if (anime === 'no' || anime === 'n') {
+    score++;
+  } else if (anime === 'no' || anime === 'n') {
   /*console.log*/alert('Dude WHAT! I love the waifus');
-} else {
+  } else {
   /*console.log*/alert('You need to answer with a \'yes\' or a \'no\'');
+  }
 }
+
+questionThree();
 
 let pet = prompt('Do I have dogs?').toLowerCase();
 

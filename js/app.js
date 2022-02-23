@@ -101,6 +101,7 @@ if (home === 'yes' || home === 'y') {
 }
 questionFive();
 
+function questionSix(){
 let attempts = 3;
 
 for (let i = 0; i < 4; i++) {
@@ -115,6 +116,10 @@ for (let i = 0; i < 4; i++) {
     /*console.log*/alert(`too high, try again! You have ${attempts--} attempts remaining`);
   }
 } /*console.log*/alert('the number was 7');
+}
+questionSix();
+
+
 
 // let favorite = ['pizza', 'taco', 'cheeseBurger', 'lasagna', 'BaconEgg&Cheese', 'six', 'seven', 'eight', 'nine', 'ten',];
 

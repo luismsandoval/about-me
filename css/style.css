@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../img/background.jpg");
   margin: 0;
@@ -17,6 +21,10 @@ h1 {
   background-color: #dbe9f0;
 }
 
+.welcome {
+  text-align: center;
+}
+
 h2 {
   font-size: 2rem;
   color: #a38e74;
@@ -24,6 +32,11 @@ h2 {
 }
 
 #hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
   width: 960px;
   border: 3px solid #a38e74;
 }

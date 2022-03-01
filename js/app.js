@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('helloWorld');
-
 let username = prompt('What is your name?');
 alert('Hi ' + username + '! ' + 'Welcome to my site!');
 
